@@ -8,5 +8,5 @@ rm -rf $KERNEL_PATH/out/ *.zip
 make mrproper && git reset --hard HEAD
 
 echo "=========================make========================="
-make O=out alioth_defconfig
+make O=out stock_defconfig
 make O=out
